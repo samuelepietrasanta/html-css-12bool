@@ -3,3 +3,32 @@
     padding: 0;
     box-sizing:border-box;
 }
+
+.container{
+    margin:100px auto;
+}
+
+.row{
+    line-height:150px;
+    text-align: center;
+}
+
+[class^=col-]{
+    border:1px solid black;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.padding-5{
+    padding:5px;
+}
+
+[class*=nested]{
+    border-color: white;
+    background-color: rgb(228, 114, 114);
+}
+
